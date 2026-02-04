@@ -1,5 +1,8 @@
 import screeninfo
 
+from pathlib import Path
+import sys
+
 from src.dev_companion.utils.constants.config import( WINDOW_WIDTH,
                                                       WINDOW_HEIGHT,
                                                       DEFAULT_SCREEN_WIDTH,
@@ -15,10 +18,6 @@ def get_offset():
         return _calc_offset(screen.width, screen.height)
     except Exception as e: # Сделать логирование
         return _calc_offset(DEFAULT_SCREEN_WIDTH, DEFAULT_SCREEN_HEIGHT)
-
-# src/dev_companion/gui/utils/window_helpers.py
-from pathlib import Path
-import sys
 
 def get_styles_dir() -> Path:
     """Возвращает путь к папке styles/ относительно корня gui"""

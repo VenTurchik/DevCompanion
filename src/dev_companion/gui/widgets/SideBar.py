@@ -1,8 +1,9 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QSizePolicy
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel
 
-from src.dev_companion.utils.constants.config import SIDEBAR_MIN_WIGHT, SIDEBAR_MAX_WIGHT, LAYOUT_EXTERNAL_FIELD, \
-    LAYOUT_SPACING
-
+from src.dev_companion.utils.constants.config import (SIDEBAR_MIN_WIGHT,
+                                                      SIDEBAR_MAX_WIGHT,
+                                                      LAYOUT_EXTERNAL_FIELD,
+                                                      LAYOUT_SPACING)
 
 class SideBar(QWidget):
     def __init__(self):

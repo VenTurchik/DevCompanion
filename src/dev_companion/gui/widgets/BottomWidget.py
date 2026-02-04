@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QSplitter
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QSplitter
 
 from src.dev_companion.gui.widgets.ContentPanel import ContentPanel
 from src.dev_companion.gui.widgets.SideBar import SideBar
